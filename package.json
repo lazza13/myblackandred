@@ -1,0 +1,54 @@
+{
+    "author": "Lazza",
+    "dependencies": {},
+    "keywords": [],
+    "name": "myblack-red",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "MyBlack&Red",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/MyFont15",
+                    "name": "FONT_MYFONT_15",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/MenuIcon",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bitmap_no_bt",
+                    "name": "IMAGE_NO_BT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/MyFont",
+                    "name": "FONT_MYFONT_72",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "cd194d62-1e48-47a7-9005-d28406823c75",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
